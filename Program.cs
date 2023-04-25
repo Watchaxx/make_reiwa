@@ -18,7 +18,7 @@ internal class Program
                 if( K[i] + K[j] == "令和" ) {
                     r = true;
                 }
-                if( l.Count <= 1000 ) {
+                if( l.Count < 1000 ) {
                     l.Add( K[i] + K[j] );
                 }
             }
